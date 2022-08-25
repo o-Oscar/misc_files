@@ -17,3 +17,10 @@ gnome-extensions enable hidetopbar@mathieu.bidon.ca
 gnome-extensions prefs hidetopbar@mathieu.bidon.ca
 gnome-extensions disable desktop-icons@csoriano
 ```
+
+Sometimes the hidetopbar@mathieu.bidon.ca extention can get stuck. You can reset it using the following :
+
+```
+gnome-extensions disable hidetopbar@mathieu.bidon.ca
+gnome-extensions enable hidetopbar@mathieu.bidon.ca
+```
